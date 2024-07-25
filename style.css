@@ -37,6 +37,8 @@ body {
     margin-right: 35%;
 }
 
+
+
 section{
     height: 100vh;
     display: flex;
@@ -56,6 +58,7 @@ img{
 .picture{
     height: 37vw;
 }
+
 
 nav{
     position: fixed;
