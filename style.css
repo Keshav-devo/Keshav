@@ -57,7 +57,9 @@ img{
 }
 
 .picture{
-    height: 37vw;
+    /* background-color: red; */
+    padding: 1vw 2vw 2vw 2vw;
+    height: 33vw;
 }
 
 
