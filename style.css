@@ -30,6 +30,8 @@ body {
      }
 }
 
+
+
 .content{
     display: flex;
     flex-direction: column;
@@ -65,6 +67,12 @@ nav{
     right: 15%;
     top: 20em;
     font-weight: 500;
+}
+
+.adaxon{
+    background-color: black;
+    width: 115px;
+    border-right: 7px solid white; 
 }
 
 nav ul li {
@@ -336,5 +344,58 @@ footer{
         .card p{
             font-size: 0.8em;
         }
+    }
+}
+
+
+.wrapper{
+    /* box-sizing: content-box; */
+    background-color: #ffffff;
+    height: 70px;
+    /* padding: 50px 30px; */
+    display: flex;
+    /* border-radius: 8px; */
+    /* box-shadow: 0 20px 25px rgba(0,0,0,0.2); */
+    /* place-content:center ; */
+    /* flex-direction: column; */
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    font-size: 5vw;
+    font-weight: lighter;
+}
+.words{
+    overflow: hidden;
+}
+span{
+    display: block;
+    height: 100%;
+    padding-left: 10px;
+    color: #000000;
+    animation: spin_words 7s infinite;
+}
+@keyframes spin_words{
+    10%{
+        transform: translateY(-112%);
+    }
+    25%{
+        transform: translateY(-100%);
+    }
+    35%{
+        transform: translateY(-212%);
+    }
+    50%{
+        transform: translateY(-200%);
+    }
+    60%{
+        transform: translateY(-312%);
+    }
+    75%{
+        transform: translateY(-300%);
+    }
+    85%{
+        transform: translateY(-412%);
+    }
+    100%{
+        transform: translateY(-400%);
     }
 }
