@@ -41,11 +41,13 @@ body {
 
 
 section{
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content:center;
     align-items:flex-start;
+    padding: 0.5rem 0;
+
 }
 
 section h3{
@@ -65,9 +67,11 @@ img{
 
 nav{
     position: fixed;
-    right: 15%;
+    right: 10%;
     top: 20em;
     font-weight: 500;
+    font-size: 0.7em;
+
 }
 
 .adaxon{
@@ -83,34 +87,34 @@ nav ul li {
 }
 
 h1{
-    font-size: 4em;
+    font-size: 3em;
 }
 
 h2{
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: lighter;
 }
 
 h3{
-    font-size: 3em;
-}
-
-h4{
     font-size: 2.5em;
 }
 
+h4{
+    font-size: 2em;
+}
+
 h5{
-    font-size: 1.8em;
+    font-size: 1.5em;
     margin-bottom: 0.2em;
 }
 
 h6{
-    font-size: 1.3em;
+    font-size: 1.1em;
     margin-bottom: 0.2em;
 }
 
 p{
-    font-size: 1.5em;
+    font-size: 1.2em;
     word-break:normal;
     margin-bottom: 3%;
 }
@@ -135,7 +139,7 @@ a:hover{
 }
 
 section li{
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 section li a{
@@ -195,7 +199,7 @@ footer{
     
     justify-content: flex-start; /* Aligns content to the left */
     /* align-items: center; */
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: lighter;
 }
 
@@ -254,52 +258,58 @@ span {
     }
 }
 
-@media screen and (max-width: 1300px) {
-    
+@media screen and (max-width: 768px) {
+    .content {
+        margin: 2% auto;
+        padding: 1rem;
+        
+    }
+
+
     .picture{
         height: 40vw;
     }
 
     nav ul li {
-        font-size: 2em;
+        font-size: 1.5rem;
     }
 
-    h1{
-        font-size: 3em;
+    h1 {
+        font-size: 2.5em;  
     }
     
-    h2{
-        font-size: 2.3em;
+    h2 {
+        font-size: 2em;  
         font-weight: lighter;
     }
     
-    h3{
-        font-size: 2em;
-    }
-    
-    h4{
+    h3 {
         font-size: 1.7em;
     }
     
-    h5{
-        font-size: 1.5em;
-    }
-
-    h6{
-        font-size: 1.2em;
+    h4 {
+        font-size: 1.4em;  
     }
     
-    p{
-        font-size: 1.3em;
+    h5 {
+        font-size: 1.2em;  
     }
-
-    section li{
-        font-size: 2em;
+    
+    h6 {
+        font-size: 1em;  
+    }
+    
+    p {
+        font-size: 1.1em;  
+    }
+    
+    section li {
+        font-size: 1.7em;     
         margin: 0.5em;
     }
     
     section li a{
-            font-size: 2em;
+        font-size: 2em;
     }
 
     .card{
@@ -313,13 +323,13 @@ span {
 
     .wrapper{
         /* justify-content: flex-start; */
-        font-size: 2.3em;
+        font-size: 2em;
         font-weight: lighter;
     }
 
    
 }
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 480px) {
     
     body{
         width: 100vw;
@@ -331,8 +341,8 @@ span {
     }
 
     .content{
-        margin-left: 10%;
-        margin-right: 10%;
+        margin: 2% auto;
+        padding: 1rem;
     }
 
     section{
